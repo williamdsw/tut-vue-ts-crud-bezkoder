@@ -1,0 +1,7 @@
+# useful commands
+
+sudo npm install -g @vue/cli
+vue create project-name
+npm run serve
+npm install bootstrap
+npm install vue-router
