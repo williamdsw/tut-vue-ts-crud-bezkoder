@@ -1,6 +1,6 @@
 
 <template>
-    <article class="box w-100 shadow-lg p-3">
+    <article class="box w-100 shadow-lg p-3 border">
         <header>
             <h1 class="text-center"> New Tutorial </h1>
         </header>
