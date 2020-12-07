@@ -11,11 +11,16 @@
           <a href="/add" class="nav-link"> Add </a>
         </li>
       </div>
-      <div class="container-my-3">
+    </nav>
+     <div class="container my-3">
         <router-view />
       </div>
-    </nav>
   </div>
 </template>
 
-<script src="./app.ts"></script>
+<script lang="ts">
+  import { Component, Vue } from 'vue-property-decorator';
+
+  @Component
+  export default class App extends Vue {}
+</script>

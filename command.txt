@@ -5,3 +5,4 @@ vue create project-name
 npm run serve
 npm install bootstrap
 npm install vue-router
+npm install axios
