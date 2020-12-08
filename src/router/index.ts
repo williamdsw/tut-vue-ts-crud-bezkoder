@@ -21,6 +21,10 @@ const routes: Array<RouteConfig> = [
         alias: 'add',
         component: () => import('../components/AddTutorial.vue')
     },
+    {
+        path: '*',
+        component: () => import('../components/NotFound.vue')
+    }
 ];
 
 const router = new VueRouter({

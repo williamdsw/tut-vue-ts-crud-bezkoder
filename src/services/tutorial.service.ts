@@ -17,7 +17,7 @@ class TutorialService {
     }
 
     public findByTitle(title: string): Promise<AxiosResponse<Tutorial[]>> {
-        return http.get<Tutorial[]>(`${this.baseUrl}/title=${title}`);
+        return http.get<Tutorial[]>(`${this.baseUrl}?title=${title}`);
     }
 
     public findById(id: string): Promise<AxiosResponse<Tutorial>> {

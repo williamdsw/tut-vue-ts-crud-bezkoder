@@ -2,7 +2,7 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand navbar-dark bg-dark">
-      <a href="#" class="navbar-brand"> Vue Tutorial from bezkoder.com </a>
+      <a href="#" class="navbar-brand"> Vue Tutorial </a>
       <div class="navbar-nav mr-auto">
         <li class="nav-item">
           <a href="/tutorials" class="nav-link"> Tutorials </a>
